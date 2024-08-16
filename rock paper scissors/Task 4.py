@@ -8,7 +8,7 @@ class RockPaperScissorsApp:
         self.root = root
         self.root.title("Rock, Paper, Scissors")
         
-        # Configure window size and position to start maximized
+        #  Configure window size and position to start maximized
         self.root.state('zoomed')  # This makes the window maximized
         
         self.user_score = 0
